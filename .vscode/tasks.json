@@ -1,0 +1,62 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "watch",
+      "dependsOn": [
+        "npm: watch:tsc",
+        "npm: watch:esbuild"
+      ],
+      "presentation": {
+        "reveal": "never"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "watch:esbuild",
+      "group": "build",
+      "problemMatcher": "$esbuild-watch",
+      "isBackground": true,
+      "label": "npm: watch:esbuild",
+      "presentation": {
+        "group": "watch",
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "watch:tsc",
+      "group": "build",
+      "problemMatcher": "$tsc-watch",
+      "isBackground": true,
+      "label": "npm: watch:tsc",
+      "presentation": {
+        "group": "watch",
+        "reveal": "silent"
+      }
+    }
+  ],
+  "problemMatchers": [
+    {
+      "name": "esbuild-watch",
+      "base": "$tsc-watch",
+      "background": {
+        "activeOnStart": true,
+        "beginsPattern": "^\\[watch\\] build started",
+        "endsPattern": "^\\[watch\\] build finished"
+      },
+      "pattern": {
+        "regexp": "^>\\s+(.*):(\\d+):(\\d+):\\s+(error|warning):\\s+(.*)$",
+        "file": 1,
+        "line": 2,
+        "column": 3,
+        "severity": 4,
+        "message": 5
+      }
+    }
+  ]
+}
