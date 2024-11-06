@@ -2,11 +2,13 @@
   "name": "php-best-practices",
   "displayName": "PHP Best Practices",
   "description": "Extensión para sugerir buenas prácticas en PHP.",
-  "version": "0.0.1",
-  "publisher": "OpSET México",
+  "version": "0.0.2",
+  "publisher": "OpSETMxico",
+  "icon": "images/iconx4.png",
   "engines": {
     "vscode": "^1.75.0"
   },
+  "pricing": "Free",
   "categories": [
     "Linters"
   ],
