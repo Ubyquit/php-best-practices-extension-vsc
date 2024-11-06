@@ -2,7 +2,7 @@
   "name": "php-best-practices",
   "displayName": "PHP Best Practices",
   "description": "Extensión para sugerir buenas prácticas en PHP.",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "publisher": "OpSETMxico",
   "icon": "images/iconx4.png",
   "engines": {
