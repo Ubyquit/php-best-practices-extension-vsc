@@ -4,7 +4,7 @@
   "description": "Extensión para sugerir buenas prácticas en PHP.",
   "version": "1.0.0",
   "publisher": "OpSETMxico",
-  "icon": "images/iconx4.png",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.75.0"
   },

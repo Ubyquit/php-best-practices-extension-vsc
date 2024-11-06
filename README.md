@@ -1,4 +1,4 @@
-![Icono de la extensión](images/icon.png)
+![icon.png](https://github.com/Ubyquit/php-best-practices-extension-vsc/blob/main/images/icon.png?raw=true)
 
 Extensión para Visual Studio Code que sugiere buenas prácticas en PHP utilizando PHP_CodeSniffer. Esta herramienta permite a los desarrolladores escribir código PHP de calidad, alineado con los estándares de codificación, mostrando advertencias y sugerencias directamente en el editor.
 
@@ -22,11 +22,11 @@ Extensión para Visual Studio Code que sugiere buenas prácticas en PHP utilizan
 Aquí tienes algunos ejemplos de cómo la extensión mejora tu código PHP en tiempo real:
 
 ### Sugerencias en Malas Prácticas
-![Captura de ejemplo](images/1.png) 
+![1.png](https://github.com/Ubyquit/php-best-practices-extension-vsc/blob/main/images/1.png?raw=true)
 
-![Captura de ejemplo](images/2.png) 
+![2.png](https://github.com/Ubyquit/php-best-practices-extension-vsc/blob/main/images/2.png?raw=true)
 
-![Captura de ejemplo](images/3.png) 
+![3.png](https://github.com/Ubyquit/php-best-practices-extension-vsc/blob/main/images/3.png?raw=true)
 
 ---
 
@@ -128,5 +128,5 @@ npm run test
 ---
 
 ## Créditos y Licencia 📝
-![[OpSET.png]]
+![OpSET.png](https://github.com/Ubyquit/php-best-practices-extension-vsc/blob/main/images/OpSET.png?raw=true)
 Desarrollado por OpSET México. Publicado bajo la licencia MIT.
