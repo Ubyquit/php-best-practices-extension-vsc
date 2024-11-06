@@ -17,6 +17,17 @@ Extensión para Visual Studio Code que sugiere buenas prácticas en PHP utilizan
 - **Squiz**: Estándar de codificación desarrollado por Squiz Labs.
 - **PEAR**: Estándar de codificación del repositorio de aplicaciones y extensiones de PHP.
 - **Zend**: Estándar de codificación del framework Zend.
+
+### Colores e Iconos de Mensajes
+
+La extensión muestra diferentes colores e iconos para cada categoría de mensaje:
+
+- 🟦 **PSR**: Mensajes relacionados con estándares básicos y guías de estilo.
+- 🟩 **Squiz**: Reglas y estándares específicos de Squiz Labs.
+- 🟪 **PEAR**: Estándares de estilo y convenciones del repositorio PEAR.
+- 🟧 **Zend**: Reglas y estilos específicos del framework Zend.
+- 🟥 **Generic**: Advertencias y errores críticos, como problemas de estructura y lógica.
+
 ## Capturas de Pantalla 📸
 
 Aquí tienes algunos ejemplos de cómo la extensión mejora tu código PHP en tiempo real:
